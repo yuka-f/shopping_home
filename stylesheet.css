@@ -1,0 +1,358 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body {
+    font-size: 15px;
+    font-family: Georgia, YuMincho,"Hiragino Mincho ProN", Meiryo, serif;
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    color: gray;
+}
+
+header{
+    height:152px;
+    margin-top:50px;
+}
+.container{
+    width:1040px;
+    margin:0 auto;
+}
+.header-left{
+    float:left;
+}
+
+.header-left h1{
+    font-size: 36px;
+    line-height: 48px;
+    color: gray;
+}
+
+.header-left p{
+    font-size: 18px;
+    color: gray;
+}
+
+.header-right{
+    padding-top:45px;
+    float:right;
+}
+
+.fas{
+    margin-left:10px;
+}
+
+.gnav li{
+float:left;
+font-size:16.88px;
+padding:0 15px;
+position:relative;
+}
+
+.gnav li ul{
+    position: absolute;
+    top:45px;
+    left:-5px;
+    height:0;
+    visibility: hidden;
+}
+
+.gnav li a{
+    display: block;
+    padding-bottom: 14px;
+}
+
+.gnav{
+    padding:0 200px;
+}
+
+.gnav li li{  
+    width:200px;
+    border:solid 1px #f0f0f0;
+    padding:10px 20px 0 20px;
+    box-shadow:0.5px 0.5px #f0f0f0;
+    background-color: white;
+    opacity:0;
+    transition: all 0.9s;
+}
+
+.gnav li:hover ul li{
+    visibility: visible;
+    opacity:1;
+}
+
+.gnav li:hover{
+    color: #C49029;
+}
+
+.search-wrapper{
+    height:40px;
+    display: inline-block;
+    float:right;
+    position: relative;
+}
+
+.search{
+    height: 40px;
+    width:0px;
+    background: url(/Users/fg/Desktop/shopping/icons8-検索-50.png) left center no-repeat;
+    background-size:26px 26px;
+    padding-left:30px;
+    font-size: 16px;
+    border:1px solid #e0e0e0;
+    position: absolute;
+    right:0;
+    top:6px;
+    outline:none;
+    border: none;
+    transition: 0.5s;
+}
+
+.search:focus{
+    width:210px;
+    height:34px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    cursor:text;
+}
+
+.search-wrapper .search{
+    color:gray;
+}
+
+.clearlist {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+h2 {
+    font-size: 2.0em;
+}
+
+
+#site_logo{
+    float: left;
+    width: 65%;
+}
+ 
+#site_reserve{
+    float: right;
+    width: 35%;
+    margin-top: 10px;
+}
+
+.site_tel{
+    font-size: 1.5em;
+    color: gray;
+}
+
+#main_image img{
+    width: 1000px;
+    height: 500px;
+    margin-top: -60px;
+}
+
+#concept_icon {
+    width:400px;
+    height:110px;
+    margin-bottom: -15px;
+}
+.container img{
+    margin-top: 20px;
+    width: 50%;
+}
+
+main {
+    text-align : center;
+}
+
+#concept {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#concept_logo{
+    margin-bottom: -40px;
+}
+
+#concept h2{
+    margin-right: 25px;
+    color: rgba(128, 128, 128, 0.63);
+}
+
+#concept h3{
+    margin:0 auto;
+    color: gray;
+    width: 80%;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#menu {
+    background-color:white;
+    text-align: center;
+}
+
+#menu h2 {
+    color:gray;
+}
+
+#menu a{
+    list-style: none;
+    color: gray;
+}
+
+
+#menu h3,a:hover ul li{
+    visibility: visible;
+    opacity:1;
+}
+#menu a:hover{
+    color: #C49029;
+}
+#menu ul{
+    font-size: 15px;
+    border: none;
+}
+
+.menu_box p{
+    margin-top:-10px
+}
+
+.menu_box {
+    width: 29%;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 30px;
+}
+
+.menu_box img{
+    width: 100%;
+    max-width: 300px;
+}
+
+.menu_box ul {
+    text-align: left;
+    font-size: 0.8em;
+    margin-left: 3%;
+}
+
+
+footer {
+    background-color: #f8aabb3a;
+    color: rgba(241, 159, 159, 0.616);
+    text-align: center;
+}
+
+@media only screen and (max-width: 680px){
+
+
+
+}
