@@ -201,7 +201,7 @@ position:relative;
 .search{
     height: 40px;
     width:0px;
-    background: url(https://github.com/yuka-f/shopping_home/blob/main/icons8-%E6%A4%9C%E7%B4%A2-50.png) left center no-repeat;
+    background: url(/Users/fg/Desktop/shopping/icons8-検索-50.png) left center no-repeat;
     background-size:26px 26px;
     padding-left:30px;
     font-size: 16px;
