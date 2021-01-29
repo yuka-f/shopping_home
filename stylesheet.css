@@ -109,6 +109,7 @@ body {
 
 a {
     text-decoration: none;
+    color:gray;
 }
 
 ul {
@@ -169,7 +170,7 @@ position:relative;
 }
 
 .gnav{
-    padding:0 200px;
+    padding:0 200px 0 0;
 }
 
 .gnav li li{  
@@ -189,6 +190,7 @@ position:relative;
 
 .gnav li:hover{
     color: #C49029;
+    text-decoration: none;
 }
 
 .search-wrapper{
@@ -212,6 +214,7 @@ position:relative;
     outline:none;
     border: none;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .search:focus{
