@@ -188,29 +188,30 @@ position:relative;
     opacity:1;
 }
 
-.gnav li:hover{
+.gnav li a:hover{
     color: #C49029;
     text-decoration: none;
 }
 
+
 .search-wrapper{
     height:40px;
     display: inline-block;
-    float:right;
+    float: right;
     position: relative;
 }
 
 .search{
     height: 40px;
     width:0px;
-    background: url(icons8-検索-50.png) left center no-repeat;
+    background: url(/Users/fg/Desktop/shopping/icons8-検索-50.png) left center no-repeat;
     background-size:26px 26px;
     padding-left:30px;
     font-size: 16px;
     border:1px solid #e0e0e0;
     position: absolute;
     right:0;
-    top:6px;
+    top:-6px;
     outline:none;
     border: none;
     transition: 0.5s;
@@ -319,6 +320,7 @@ main {
 }
 #menu a:hover{
     color: #C49029;
+    text-decoration: none;
 }
 #menu ul{
     font-size: 15px;
